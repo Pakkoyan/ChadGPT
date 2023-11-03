@@ -1,0 +1,14 @@
+/* desc: таблица общих стилий для всех страниц, некоторый devkit*/
+
+/* КЛАССЫ */
+
+/* Основной родительский контейнер */
+.cont {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cont > *{
+    margin-top: 30px;
+}

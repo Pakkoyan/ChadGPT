@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8" />
+    <!-- Псевдо normalize CSS-->
+    <link rel="stylesheet" href="/src/css/pseudo_normalize.css" />
+    <!-- Общие стили -->
+    <link rel="stylesheet" href="/src/css/common.css">
+    <!-- Модуль стилий для top_menu -->
+    <link rel="stylesheet" href="/src/css/top_menu.css">
+    <!-- Личный файл страницы -->
+    <link rel="stylesheet" href="/src/css/main_page.css">
+
+    <!-- TS модуль top_menu -->
+    <script type="module" src="/src/ts/top_menu.ts" defer></script>
+    <!--Псевдо main func-->
+    <script type="module" src="/src/ts/main_main_page.ts" defer></script>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sweet</title>
+</head>
+<body>
+    <div class="top-menu">
+        <h2>CHADgpt</h2>
+        <img class="top-menu-icon" src="src/assets/gigachad-1.png" alt="гигачады">
+    </div>
+
+
+    <div class="cont-dialog-bg">
+        <p class="chad-logo">true-chad</p>
+    </div>
+
+    <div class="bottom-menu">
+        <textarea class="input-user" placeholder="Отправить сообщение"></textarea>
+        <button class="input-user-button" type="submit">
+            <img class="send-img" src="src/assets/send.svg">
+        </button>
+
+    </div>
+</body>
+</html>

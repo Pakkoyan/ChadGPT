@@ -1,0 +1,18 @@
+/* desc: таблица стилий для top_menu*/
+
+/* КЛАССЫ */
+
+/* Контейнер для верхнего меню */
+.top-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: darkviolet;
+    height: 50px;
+}
+
+/* Иконка чадов */
+.top-menu-icon {
+    width: 40px;
+    height: 30px;
+}
